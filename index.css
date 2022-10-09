@@ -15,7 +15,7 @@ body {
 /* Score Section */
 .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #1B244A;
 }
 
