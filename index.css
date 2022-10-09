@@ -15,7 +15,7 @@ body {
 /* Score Section */
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #1B244A;
 }
 
@@ -68,6 +68,7 @@ body {
 }
 #winning-title {
     color: #9AABD8;
+    font-size: 35px;
     margin: 0;
     padding-bottom: 10px;
     text-shadow: 2px 2px 1px #1B244A;
@@ -75,6 +76,7 @@ body {
 
 #end-title {
     color: #9AABD8;
+    font-size: 35px;
     margin: 0;
     padding-bottom: 10px;
     text-shadow: 2px 2px 1px #1B244A;
