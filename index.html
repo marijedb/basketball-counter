@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="team">
+                <h3 class="main-title">HOME</h3>
+                <div class="score-flex">
+                    <h3 id="score-home">0</h3>
+                </div>
+                <button class="btn btn-home" onclick="addOne(event)">+1</button>
+                <button class="btn btn-home" onclick="addTwo(event)">+2</button>
+                <button class="btn btn-home" onclick="addThree(event)">+3</button>
+            </div>
+            <div class="team">
+                <h3 class="main-title">GUEST</h3>
+                <div class="score-flex">
+                    <h3 id="score-guest">0</h3>
+                </div>
+                <button class="btn" onclick="addOne(event)">+1</button>
+                <button class="btn" onclick="addTwo(event)">+2</button>
+                <button class="btn" onclick="addThree(event)">+3</button>
+            </div>
+        </div>
+        <div class="winning-team">
+            <h3 id="winning-title">It's a tie!</h3>
+            <h3 id="end-title">New game starts in <span id="countdowntimer">4 </span> Seconds</h3>
+        </div>
+        <div class="end-game">
+            <button class="btn btn-end-game" onclick="endGame()">End Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
